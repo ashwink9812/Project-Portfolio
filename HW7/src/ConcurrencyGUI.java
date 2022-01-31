@@ -38,7 +38,7 @@ public class ConcurrencyGUI extends JFrame
 
 	public static int[] dArray;
 
-	public static int[] insertion; //for future deep copies of the array
+	public static int[] insertion; //for future deep copies of the arrays
 	public static int[] selection;
 	public static int[] bubble;
 	public ConcurrencyGUI()
