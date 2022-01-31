@@ -44,11 +44,11 @@ public class ConcurrencyGUI extends JFrame
 	public ConcurrencyGUI()
 	{
 		frame = new JFrame();
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
 		frame.setSize(1500,900);
 		frame.setTitle("Sorting Algorithms"); 
-		frame.setLayout(new GridLayout(1,0));     
-
+		frame.setLayout(new GridLayout(1,0));      
+ 
 		frame.getContentPane().setBackground(Color.pink); 
 		frame.setLocationRelativeTo(null);	
 
@@ -57,7 +57,7 @@ public class ConcurrencyGUI extends JFrame
 	public static void shuffleArray(int[] array) //to randomly shuffle the array
 	{
 		ArrayList<Integer> list = new ArrayList<>();
-		for (int i : array) {
+		for (int i : array) { 
 			list.add(i);
 		}
 
