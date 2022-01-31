@@ -5,7 +5,7 @@ Analyzed historical climate data from AASHTOWare Pavement Design Software to ide
 
 ### How it works
 
-The macro searches for the filenames (listed in column E) located in the path on your drive (listed in F1) and retrieves relevant cracking data (Columns G,H, etc.). It then plots the data in a line graph (axes, title, scale are specified in column B). VBA code can be viewed by the Developer tab > Visual Basic.
+The macro searches for the filenames (listed in column E) located in the path on your drive (listed in F1) and retrieves relevant cracking data (Columns G,H, etc.). It then plots the data in a line graph (axes, title, scale are specified in column B). VBA code can be viewed in the Developer tab > Visual Basic.
 
 ### How to use it
 
