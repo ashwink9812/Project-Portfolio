@@ -1,0 +1,42 @@
+0	AnalysisType
+63.000	InitialIRI
+50	TerminalIRIReliability
+50	BottomUpCrackingReliability
+50	TopDownCrackingReliability
+50	ThermalReliability
+90	CTBReliability
+50	ACRuttingReliability
+50	TotalRuttingReliability
+90	ReflectiveCrackingReliability
+0.24 * Pow(RUT,0.8026) + 0.001	AlphaRutAC
+0.2386 * THERMAL + 343	TransverseStandardDeviation
+0.1477 * Pow(BASERUT,0.6711) + 0.001	BaseSTD
+0.1235 * Pow(SUBRUT,0.5012) + 0.001	SubgradeSTD
+200 + 2300/(1+exp(1.072-2.1654*LOG10(TOP+0.0001)))	AlphaTop
+1.13 + 13/(1+exp(7.57-15.5*LOG10(BOTTOM+0.0001)))	FatigueStandardDeviation
+CTB*1	AlphaCTB
+40	IRI_GBC1
+0.4	IRI_GBC2
+0.008	IRI_GBC3
+0.015	IRI_GBC4
+40.8	IRI_ATBC1
+0.575	IRI_ATBC2
+0.0014	IRI_ATBC3
+0.00825	IRI_ATBC4
+30	PlasticityIndex
+94.9	PassingSieve4
+79.1	PassingSieve200
+2	FatigueBottom
+2000.000	FatigueTop
+1000.000	ThermalFracture
+25	CTB
+0.250	RuttingAC
+0.750	RuttingTotal
+172.000	IRI
+25.000	ReflectiveCrack
+90.000	ReliabilityReflectiveCrack
+2500.000	FracturedOrTransverseReflectiveCrack
+90.000	ReliabilityFracturedOrTransverseReflectiveCrack
+0.000	AmountExistingTransverseCracking
+120	ReflectiveCrackingSemiTransverseM
+-1	MaintenanceActivityCode

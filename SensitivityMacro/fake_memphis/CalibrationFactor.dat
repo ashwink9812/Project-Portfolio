@@ -1,0 +1,65 @@
+*************************
+** Calibration Factors **
+*************************
+AC Fatigue
+4	0.000000
+3.750000	2.870000	1.460000	0.001389	1.380000	0.880000
+AC Rutting
+4
+-2.450000	3.010000	0.220000	0.400000	0.520000	1.360000
+CTB Fracture
+4
+0.972000	0.082500	1.000000	1.000000
+Thermal Fracture
+4
+18.422686	1.000000
+SubGrade Rutting
+4
+1.000000	0.965000	1.000000	0.675000	0.000000	1.000000	0.000000	1.000000
+Reflective Cracking
+1	1.000000	1.000000
+Block(unbound) Block(CTB) Patch(AC) Patch(Overlay) Sealed(CTB) Sealed(Unbound) Sealed(Overlay) Pothole(Overlay)-deprecated
+0 0 0 8 0 0 35 20
+0 0 0 0 0 0 0 0
+7		C1(top)
+3.5		C2(top)
+0		C3(top)
+1000		C4(top)
+1.31		C1(bottom)
+3.7083		C2(bottom)
+3.7083		C3(bottom)
+6000		C4(bottom)
+0		C1(CTB)
+75		C2(CTB)
+2		C3(CTB)
+2		C4(CTB)
+0.00732		C1(IRI-CTB)-deprecated
+0.07647		C2(IRI-CTB)-deprecated
+0.0001449		C3(IRI-CTB)-deprecated
+0.00842		C4(IRI-CTB)-deprecated
+0.0002115		C5(IRI-CTB)-deprecated
+0.229		SD(IRI-CTB)-deprecated
+40.8		C1(IRI-ATB)
+0.575		C2(IRI-ATB)
+0.0014		C3(IRI-ATB)
+0.00825		C4(IRI-ATB)
+0.9694		C5(IRI-ATB)-deprecated
+0.292		SD(IRI-ATB)-deprecated
+40		C1(IRI-GB)
+0.4		C2(IRI-GB)
+0.008		C3(IRI-GB)
+0.015		C4(IRI-GB)
+0.00736		C5(IRI-GB)-deprecated
+0.00115		C6(IRI-GB)-deprecated
+0.229		SD(IRI-GB)-deprecated
+40		C1(IRI-Flex)
+0.4		C2(IRI-Flex)
+0.008		C3(IRI-Flex)
+0.015		C4(IRI-Flex)
+0.0112407		C5(IRI-Flex)-deprecated
+9.04244		C6(IRI-Flex)-deprecated
+0.179		SD(IRI-Flex)-deprecated
+0.0082627		C1(IRI-Rigid)-deprecated
+0.0221832		C2(IRI-Rigid)-deprecated
+1.33041		C3(IRI-Rigid)-deprecated
+0.197		SD(IRI-Rigid)-deprecated

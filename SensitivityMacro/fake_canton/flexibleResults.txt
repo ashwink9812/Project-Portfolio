@@ -1,0 +1,6 @@
+1457.28	50.00	25.40	FAIL	Maximum thermal cracking at reliability
+0.0615	50.00	100.00	PASS	Maximum AC rutting at reliability
+0.287	50.00	100.00	PASS	Maximum total rutting at reliability
+0.00199	50.00	100.00	-	Maximum top-down cracking at reliability
+1.1	50.00	75.56	PASS	Maximum bottom-up cracking at reliability
+118.270840150921	50.00	94.93	PASS	Maximum terminal IRI at reliability
